@@ -5,7 +5,7 @@ Original source:https://github.com/naobsd/cm_system_core/tree/ics-rockchip-naobs
 HOWTO COMPILE:
 -------------------------
 - git clone https://github.com/apeelme/cm_rk3066_mkbootimg.git
-- cd mkbootimg
+- cd cm_rk3066_mkbootimg
 - cc -O2 -Wall -Wextra -o mkbootimg mkbootimg.c -lcrypto
 - cc -O2 -Wall -Wextra -o unpackbootimg unpackbootimg.c
 
